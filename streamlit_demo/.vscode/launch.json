@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Streamlit",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": [
+                "--host", "127.0.0.1",
+                "--controller", "${env:CONTROLLER_URL}",
+                "--port", "40001",
+                "--worker", "http://127.0.0.1:40001",
+                "--device", "mps",
+                "--model-path", "/Users/sf/codeAlgorithms/VLLM/cache/modelscope/hub/OpenGVLab/InternVL2_5-1B"
+            ]
+        }
+    ]
+}

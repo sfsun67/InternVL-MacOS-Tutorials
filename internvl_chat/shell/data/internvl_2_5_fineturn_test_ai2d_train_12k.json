@@ -1,0 +1,9 @@
+{
+  "ai2d_train_12k": {
+    "root": "internvl/train/data/InternVL-Chat-V1-2-SFT-Data/data/ai2d",
+    "annotation": "internvl/train/data/InternVL-Chat-V1-2-SFT-Data/opensource/ai2d_train_12k.jsonl",
+    "data_augment": false,
+    "repeat_time": 1,
+    "length": 12413
+  }
+}
